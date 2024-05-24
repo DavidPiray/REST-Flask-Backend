@@ -1,0 +1,18 @@
+Realizado por: David Piray
+Herramientas utiliados para esta aplicación:
+    Lenguaje de Programación: Python 3.12
+    Framework: Flask
+    Gestor de Base de Datos: PostgreSQL
+
+Como usar:
+    Este codigo utiliza una tabla "juegos" en la base de datos db_juegos
+    Para probarlo cree una base de datos y la tabla con el nombre indicado
+    Además, cree un usuario que tenga todos los permisos a la base de datos
+    para poder probar este codigo.
+    Puede revisar el archivo config.py para revisar los datos de la conexión a la base de datos
+
+    Luego de revisar ese archivo ejecute el comando "python run.py" para que el servidor se levante
+    y se pueda revisar la ejecución de este código 
+    (Revise el archivo juegos_controller en la carpeta controllers para ver las direcciones url que debe poner
+    para las diferentes operaciones CRUD)
+Nota: puede ejecutar el comando "python init_db.py" para que se cree la tabla automáticamente
